@@ -1,17 +1,4 @@
-/******************** (C) COPYRIGHT 2008 STMicroelectronics ********************
-* File Name          : usb_desc.c
-* Author             : MCD Application Team
-* Version            : V2.2.1
-* Date               : 09/22/2008
-* Description        : Descriptors for Custom HID Demo
-********************************************************************************
-* THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
-* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE TIME.
-* AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY DIRECT,
-* INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE
-* CONTENT OF SUCH FIRMWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING
-* INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
-*******************************************************************************/
+
 
 /* Includes ------------------------------------------------------------------*/
 #include "usb_lib.h"
@@ -201,5 +188,5 @@ u8 CustomHID_StringSerial[CUSTOMHID_SIZ_STRING_SERIAL] =
     'x', 0, 'x', 0, 'x', 0,'x', 0,'x', 0, 'x', 0, 'x', 0
   };
 
-/******************* (C) COPYRIGHT 2008 STMicroelectronics *****END OF FILE****/
+
 
