@@ -399,4 +399,4 @@ float Moving_Median(uint8_t item,uint8_t width_num,float in)
 //		}
 //}
   
-/******************* (C) COPYRIGHT 2012 WildFire Team *****END OF FILE************/
+
