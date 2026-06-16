@@ -402,4 +402,3 @@ FLASH_Status FLASH_BootConfig(uint16_t FLASH_BOOT);
   * @}
   */
 
-/******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/
