@@ -279,4 +279,4 @@ __user_initial_stackheap
 
                  END
 
-;******************* (C) COPYRIGHT 2010 STMicroelectronics *****END OF FILE*****
+;
