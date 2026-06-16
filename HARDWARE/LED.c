@@ -1,11 +1,4 @@
-/*******************************************************************
- *@title LED system
- *@brief flight light
- *@brief 
- *@time  2016.10.19
- *@editorп║до&zin
- *╥и©ь╟╝╨цQQх╨551883670,сйоД759421287@qq.com
- ******************************************************************/
+
 #include "stm32f10x.h"
 #include "LED.h"
 #include "ALL_DATA.h"
@@ -14,23 +7,23 @@
 
 
 
-////срг╟╣ф			 
-#define fLED1_H()  TIM3->CCR1=1000 //╟╣
-#define fLED1_L()  TIM3->CCR1=500  //аа
-#define fLED1_Toggle()  TIM3->CCR1^=(1000^500)//иак╦
-////вСг╟╣ф			 
-#define fLED3_H()  TIM3->CCR3=1000 //╟╣
-#define fLED3_L()  TIM3->CCR3=500  //аа
-#define fLED3_Toggle()  TIM3->CCR3^=(1000^500)//иак╦
+////Е▐ЁЕ┴█Г│╞			 
+#define fLED1_H()  TIM3->CCR1=1000 //Ф ≈
+#define fLED1_L()  TIM3->CCR1=500  //Д╨╝
+#define fLED1_Toggle()  TIM3->CCR1^=(1000^500)//И≈╙Г┐│
+////Е╥╕Е┴█Г│╞			 
+#define fLED3_H()  TIM3->CCR3=1000 //Ф ≈
+#define fLED3_L()  TIM3->CCR3=500  //Д╨╝
+#define fLED3_Toggle()  TIM3->CCR3^=(1000^500)//И≈╙Г┐│
 //-------------------------------------------------
-////ср╨С╣ф			 
-#define bLED2_H()  TIM3->CCR2=1000 //╟╣
-#define bLED2_L()  TIM3->CCR2=500  //аа
-#define bLED2_Toggle()  TIM3->CCR2^=(1000^500)//иак╦
-////вС╨С╣ф			 
-#define bLED4_H()  TIM3->CCR4=1000 //╟╣
-#define bLED4_L()  TIM3->CCR4=500  //аа
-#define bLED4_Toggle()  TIM3->CCR4^=(1000^500)//иак╦
+////Е▐ЁЕ░▌Г│╞			 
+#define bLED2_H()  TIM3->CCR2=1000 //Ф ≈
+#define bLED2_L()  TIM3->CCR2=500  //Д╨╝
+#define bLED2_Toggle()  TIM3->CCR2^=(1000^500)//И≈╙Г┐│
+////Е╥╕Е░▌Г│╞			 
+#define bLED4_H()  TIM3->CCR4=1000 //Ф ≈
+#define bLED4_L()  TIM3->CCR4=500  //Д╨╝
+#define bLED4_Toggle()  TIM3->CCR4^=(1000^500)//И≈╙Г┐│
 //-------------------------------------------------
 
 //-------------------------------------------------
@@ -58,20 +51,20 @@ void PilotLED() //flash 300MS interval
 		LastTime = SysTick_count;
 	switch(LED.status)
 	{
-		case AlwaysOff:      //Ёё╟╣   
+		case AlwaysOff:      //Е╦╦Ф ≈   
 			fLED1_H();
 			fLED3_H();
 			bLED2_H();
 			bLED4_H();
 			break;
-		case AllFlashLight:				  //х╚╡©м╛й╠иак╦
+		case AllFlashLight:				  //Е┘╗И┐╗Е░▄Ф≈╤И≈╙Г┐│
 			//fLED_Toggle();			
 			fLED1_Toggle();		
 			fLED3_Toggle();	
 			bLED2_Toggle();		
 			bLED4_Toggle();			
 		  break;
-		case AlwaysOn:  //Ёёаа
+		case AlwaysOn:  //Е╦╦Д╨╝
 			fLED1_L();
 			fLED3_L();
 			bLED2_L();
