@@ -132,5 +132,3 @@ void PWR_ClearFlag(uint32_t PWR_FLAG);
 /**
   * @}
   */
-
-/******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/
