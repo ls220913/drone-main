@@ -1,11 +1,5 @@
 /**
-  ******************************************************************************
-  * @file    ADC/ADC1_DMA/stm32f10x_it.h 
-  * @author  MCD Application Team
-  * @version V3.5.0
-  * @date    08-April-2011
-  * @brief   This file contains the headers of the interrupt handlers.
-  ******************************************************************************
+ 
   * @attention
   *
   * THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
@@ -43,4 +37,4 @@ void SysTick_Handler(void);
 					 
 #endif /* __STM32F10x_IT_H */
 
-/******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/
+
