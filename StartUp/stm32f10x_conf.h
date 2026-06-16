@@ -1,12 +1,5 @@
 /**
-  ******************************************************************************
-  * @file    ADC/ADC1_DMA/stm32f10x_conf.h 
-  * @author  MCD Application Team
-  * @version V3.5.0
-  * @date    08-April-2011
-  * @brief   Library configuration file.
-  ******************************************************************************
-  * @attention
+   * @attention
   *
   * THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
   * WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE
@@ -73,5 +66,3 @@
 #endif /* USE_FULL_ASSERT */
 
 #endif /* __STM32F10x_CONF_H */
-
-/******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/
