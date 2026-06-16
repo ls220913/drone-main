@@ -70,4 +70,4 @@ uint8_t CRC_GetIDRegister(void);
   * @}
   */
 
-/******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/
+
