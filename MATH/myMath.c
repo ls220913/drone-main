@@ -338,4 +338,3 @@ float my_deathzoom(float x,float zoom)
 	}
   return (t);
 }
-/******************* (C) COPYRIGHT 2012 WildFire Team *****END OF FILE************/
